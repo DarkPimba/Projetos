@@ -21,6 +21,7 @@
 }
 .w33{
     width: 33.3%;
+    padding: 0 10px;
 }
 .left{
     float: left;
@@ -130,6 +131,38 @@ section.descricao-autor p{
     color: #444;
     margin-top: 10px;
 }
+section.especialidades{
+    padding: 40px 0;
+    background: #e2e2e2;
+}
+section.especialidades h2.title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    color: #999;
+}
+.box-especialidade{
+    margin: 40px 0;
+    padding: 0 30px;
+}
+.box-especialidade h3{
+    text-align: center;
+    color: #404580;
+    font-size: 40px;
+}
+.box-especialidade h4{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 300;
+    color: #BABABA;
+}
+.box-especialidade p{
+    color: #444;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+/**Media querys**/
 
 @media screen and (max-width: 700px){
     nav.desktop{
@@ -175,8 +208,16 @@ section.descricao-autor p{
         margin: 0 auto;
         max-width: 500px;
     }
+    
     .w50{
         width: 100%;
         padding: 20px;
+    }
+    .w33{
+        width: 100%;
+    }
+    .box-especialidade{
+        margin: 0;
+        padding: 40px 20px;
     }
 }
