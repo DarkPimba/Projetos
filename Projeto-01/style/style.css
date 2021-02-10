@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+}
+
+/**Boot CSS**/
+
+.clear{
+    clear: both;
+}
+.center{
+    max-width: 1280px;
+    padding: 0 2%;
+}
+.w50{
+    width: 50%;
+}
+.w33{
+    width: 33.3%;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.img{
+    width: 300px;
+    height: 300px;
+}
