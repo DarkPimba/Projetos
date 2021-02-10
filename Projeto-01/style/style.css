@@ -13,6 +13,7 @@
 .center{
     max-width: 1280px;
     padding: 0 2%;
+    margin: 0 auto;
 }
 .w50{
     width: 50%;
@@ -29,4 +30,34 @@
 .img{
     width: 300px;
     height: 300px;
+}
+
+/**Estilização do site**/
+
+header{
+    padding: 20px 0;
+    background: #3D437A;
+}
+header .logo{
+    font-size: 23px;
+    color: white;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.mobile{
+    display: none;
+}
+nav.desktop ul{
+    list-style-type: none;
+}
+nav.desktop li{
+    font-weight: 300;
+    font-size: 15px;
+    padding: 0 30px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+nav.desktop a{
+    color: white;
+    text-decoration: none;
 }

@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/7d4ffebbc2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style/style.css">
     <meta charset="UTF-8">
@@ -16,8 +16,8 @@
 
     <header>
     <div class="center">
-        <div class="logo">Logomarca</div><!--logo-->
-        <nav class="desktop">
+        <div class="logo left">Logomarca</div><!--logo-->
+        <nav class="desktop right">
             <ul>
                 <li><a href="">Home</a></li>
                 <li><a href="">Sobre</a></li>
@@ -25,7 +25,7 @@
                 <li><a href="">Contato</a></li>
             </ul>
         </nav><!--desktop-->
-        <nav class="mobile">
+        <nav class="mobile right">
             <ul>
                 <li><a href="">Home</a></li>
                 <li><a href="">Sobre</a></li>
@@ -34,6 +34,7 @@
             </ul>
         </nav><!--mobile-->
     </div><!--center-->
+    <div class="clear"></div>
     </header>
 
     <section class="banner-principal">
