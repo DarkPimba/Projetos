@@ -88,8 +88,8 @@
     <section class="extras">
     
         <div class="center">
-            <div class="w50 left">
-                <h2 class="title">Depoimentos</h2>
+            <div class="w50 left depoimentos-container">
+                <h2 class="title">Depoimentos dos nosso clientes</h2>
                 <div class="depoimento-sigle">
                 <p class="depoimento-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium rutrum ullamcorper. Etiam sem lectus, condimentum eget rhoncus vel, pellentesque nec sapien. Pellentesque placerat eu erat nec consectetur. Pellentesque in sem vel urna tristique lacinia sit amet eget nunc. Integer blandit odio quis ultricies elementum. Suspendisse auctor libero turpis, at placerat est gravida in. Fusce at gravida odio, ut faucibus orci. Vivamus eget</p>
                 <p class="nome-autor">Lorem Ipsum</p>
@@ -103,8 +103,7 @@
                 <p class="nome-autor">Lorem Ipsum</p>
                 </div><!--depoimento-sigle-->
             </div><!--w50-->
-            <div class="clear"></div>
-            <div class="w50 left" >
+            <div class="w50 left servicos-container">
                 <h2 class="title">Serviços</h2>
                 <div class="servicos">
                     <ul>
@@ -114,10 +113,10 @@
                     </ul>
                 </div><!--serviços-->
             </div><!--w50-->
-            <div class="clear"></div>
+            
         </div><!--center-->
-
-    </section><!--extras-->]
+            <div class="clear"></div>
+    </section><!--extras-->
 
     <footer>
     
@@ -126,6 +125,5 @@
         </div><!--center-->
 
     </footer>
-    
 </body>
 </html>
