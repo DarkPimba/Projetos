@@ -11,7 +11,7 @@
 <body>
 
     <header>
-    
+    <div class="center">
         <div class="logo">Logomarca</div><!--logo-->
         <nav class="desktop">
             <ul>
@@ -29,28 +29,52 @@
                 <li><a href="">Contato</a></li>
             </ul>
         </nav><!--mobile-->
-
+    </div><!--center-->
     </header>
 
     <section class="banner-principal">
-        <form>
-            <h2>Qual o seu melhor e-mail?</h2>
-            <input type="email" name="email" require />
-            <input type="submit" name="acao" value="Cadastrar" />
-        </form>
+        <div class="center">
+            <form>
+                <h2>Qual o seu melhor e-mail?</h2>
+                <input type="email" name="email" require />
+                <input type="submit" name="acao" value="Cadastrar" />
+            </form>
+        </div><!--center-->
     </section><!--banner-principal-->
-
-    <section class="descricao-autor">
-    <div class="w50">
-        <h2>Carlos A. Silva</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium rutrum ullamcorper. Etiam sem lectus, condimentum eget rhoncus vel, pellentesque nec sapien. Pellentesque placerat eu erat nec consectetur. Pellentesque in sem vel urna tristique lacinia sit amet eget nunc. Integer blandit odio quis ultricies elementum. Suspendisse auctor libero turpis, at placerat est gravida in. Fusce at gravida odio, ut faucibus orci. Vivamus eget erat egestas, lobortis ante et, interdum metus. Nulla eu iaculis nulla, sit amet lacinia diam. Cras porttitor justo sit amet ex ullamcorper, ac consequat risus tempus. Curabitur quis leo lacus. Integer lacinia sem nisi, scelerisque laoreet quam fringilla quis. Phasellus sodales orci eget diam aliquam, vel scelerisque magna aliquet.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium rutrum ullamcorper. Etiam sem lectus, condimentum eget rhoncus vel, pellentesque nec sapien. Pellentesque placerat eu erat nec consectetur. Pellentesque in sem vel urna tristique lacinia sit amet eget nunc. Integer blandit odio quis ultricies elementum. Suspendisse auctor libero turpis, at placerat est gravida in. Fusce at gravida odio, ut faucibus orci. Vivamus eget erat egestas, lobortis ante et, interdum metus. Nulla eu iaculis nulla, sit amet lacinia diam. Cras porttitor justo sit amet ex ullamcorper, ac consequat risus tempus. Curabitur quis leo lacus. Integer lacinia sem nisi, scelerisque laoreet quam fringilla quis. Phasellus sodales orci eget diam aliquam, vel scelerisque magna aliquet.</p>
-    </div><!--w50-->
-    <div class="w50">
-        <!--pegar imagem depois-->
-        <img src="img/ft" />
-    </div><!--w50-->
+    <div class="center">
+        <section class="descricao-autor">
+        <div class="w50">
+            <h2>Carlos A. Silva</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium rutrum ullamcorper. Etiam sem lectus, condimentum eget rhoncus vel, pellentesque nec sapien. Pellentesque placerat eu erat nec consectetur. Pellentesque in sem vel urna tristique lacinia sit amet eget nunc. Integer blandit odio quis ultricies elementum. Suspendisse auctor libero turpis, at placerat est gravida in. Fusce at gravida odio, ut faucibus orci. Vivamus eget erat egestas, lobortis ante et, interdum metus. Nulla eu iaculis nulla, sit amet lacinia diam. Cras porttitor justo sit amet ex ullamcorper, ac consequat risus tempus. Curabitur quis leo lacus. Integer lacinia sem nisi, scelerisque laoreet quam fringilla quis. Phasellus sodales orci eget diam aliquam, vel scelerisque magna aliquet.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium rutrum ullamcorper. Etiam sem lectus, condimentum eget rhoncus vel, pellentesque nec sapien. Pellentesque placerat eu erat nec consectetur. Pellentesque in sem vel urna tristique lacinia sit amet eget nunc. Integer blandit odio quis ultricies elementum. Suspendisse auctor libero turpis, at placerat est gravida in. Fusce at gravida odio, ut faucibus orci. Vivamus eget erat egestas, lobortis ante et, interdum metus. Nulla eu iaculis nulla, sit amet lacinia diam. Cras porttitor justo sit amet ex ullamcorper, ac consequat risus tempus. Curabitur quis leo lacus. Integer lacinia sem nisi, scelerisque laoreet quam fringilla quis. Phasellus sodales orci eget diam aliquam, vel scelerisque magna aliquet.</p>
+        </div><!--w50-->
+        <div class="w50">
+            <!--pegar imagem depois-->
+            <img src="img/ft.jpg" />
+        </div><!--w50-->
+    </div><!--center-->
     </section><!--descricao-autor-->
+
+    <section class="especialidades">
+        <h2 class="title">Especialidades</h2>
+        <div class="center">
+            <div class="box-especialidade">
+                <h3>icone1</h3>
+                <h3>CSS3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium rutrum ullamcorper. Etiam sem lectus, condimentum eget rhoncus vel, pellentesque nec sapien. Pellentesque placerat eu erat nec consectetur. Pellentesque in sem vel urna tristique lacinia sit amet eget nunc. Integer blandit odio quis ultricies elementum. Suspendisse auctor libero turpis,</p>
+            </div><!--box-especialidade-->
+            <div class="box-especialidade">
+                <h3>icone2</h3>
+                <h3>HTML5</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium rutrum ullamcorper. Etiam sem lectus, condimentum eget rhoncus vel, pellentesque nec sapien. Pellentesque placerat eu erat nec consectetur. Pellentesque in sem vel urna tristique lacinia sit amet eget nunc. Integer blandit odio quis ultricies elementum. Suspendisse auctor libero turpis,</p>
+            </div><!--box-especialidade-->
+            <div class="box-especialidade">
+                <h3>icone3</h3>
+                <h3>JavaScript</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium rutrum ullamcorper. Etiam sem lectus, condimentum eget rhoncus vel, pellentesque nec sapien. Pellentesque placerat eu erat nec consectetur. Pellentesque in sem vel urna tristique lacinia sit amet eget nunc. Integer blandit odio quis ultricies elementum. Suspendisse auctor libero turpis,</p>
+            </div><!--box-especialidade-->
+        </div><!--center-->
+    </section><!--especialidades-->
     
 </body>
 </html>
