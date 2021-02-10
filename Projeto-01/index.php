@@ -56,8 +56,9 @@
     </section><!--descricao-autor-->
 
     <section class="especialidades">
-        <h2 class="title">Especialidades</h2>
+        
         <div class="center">
+            <h2 class="title">Especialidades</h2>
             <div class="box-especialidade">
                 <h3>icone1</h3>
                 <h3>CSS3</h3>
@@ -74,7 +75,48 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium rutrum ullamcorper. Etiam sem lectus, condimentum eget rhoncus vel, pellentesque nec sapien. Pellentesque placerat eu erat nec consectetur. Pellentesque in sem vel urna tristique lacinia sit amet eget nunc. Integer blandit odio quis ultricies elementum. Suspendisse auctor libero turpis,</p>
             </div><!--box-especialidade-->
         </div><!--center-->
+
     </section><!--especialidades-->
+
+    <section class="extras">
+    
+        <div class="center">
+            <div class="w50">
+                <h2 class="title">Depoimentos</h2>
+                <div class="depoimento-sigle">
+                <p class="depoimento-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium rutrum ullamcorper. Etiam sem lectus, condimentum eget rhoncus vel, pellentesque nec sapien. Pellentesque placerat eu erat nec consectetur. Pellentesque in sem vel urna tristique lacinia sit amet eget nunc. Integer blandit odio quis ultricies elementum. Suspendisse auctor libero turpis, at placerat est gravida in. Fusce at gravida odio, ut faucibus orci. Vivamus eget</p>
+                <p class="nome-autor">Lorem Ipsum</p>
+                </div><!--depoimento-sigle-->
+                <div class="depoimento-sigle">
+                <p class="depoimento-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium rutrum ullamcorper. Etiam sem lectus, condimentum eget rhoncus vel, pellentesque nec sapien. Pellentesque placerat eu erat nec consectetur. Pellentesque in sem vel urna tristique lacinia sit amet eget nunc. Integer blandit odio quis ultricies elementum. Suspendisse auctor libero turpis, at placerat est gravida in. Fusce at gravida odio, ut faucibus orci. Vivamus eget</p>
+                <p class="nome-autor">Lorem Ipsum</p>
+                </div><!--depoimento-sigle-->
+                <div class="depoimento-sigle">
+                <p class="depoimento-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium rutrum ullamcorper. Etiam sem lectus, condimentum eget rhoncus vel, pellentesque nec sapien. Pellentesque placerat eu erat nec consectetur. Pellentesque in sem vel urna tristique lacinia sit amet eget nunc. Integer blandit odio quis ultricies elementum. Suspendisse auctor libero turpis, at placerat est gravida in. Fusce at gravida odio, ut faucibus orci. Vivamus eget</p>
+                <p class="nome-autor">Lorem Ipsum</p>
+                </div><!--depoimento-sigle-->
+            </div><!--w50-->
+            <div class="w50">
+                <h2 class="title">Serviços</h2>
+                <div class="servicos">
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium rutrum ullamcorper. Etiam sem lectus, condimentum eget rhoncus vel, pellentesque nec sapien. Pellentesque placerat eu erat nec consectetur. Pellentesque in sem vel urna tristique lacinia sit amet eget nunc. Integer blandit odio quis ultricies elementum. Suspendisse auctor libero turpis, at placerat est gravida in. Fusce at gravida odio, ut faucibus orci. Vivamus eget</li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium rutrum ullamcorper. Etiam sem lectus, condimentum eget rhoncus vel, pellentesque nec sapien. Pellentesque placerat eu erat nec consectetur. Pellentesque in sem vel urna tristique lacinia sit amet eget nunc. Integer blandit odio quis ultricies elementum. Suspendisse auctor libero turpis, at placerat est gravida in. Fusce at gravida odio, ut faucibus orci. Vivamus eget</li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium rutrum ullamcorper. Etiam sem lectus, condimentum eget rhoncus vel, pellentesque nec sapien. Pellentesque placerat eu erat nec consectetur. Pellentesque in sem vel urna tristique lacinia sit amet eget nunc. Integer blandit odio quis ultricies elementum. Suspendisse auctor libero turpis, at placerat est gravida in. Fusce at gravida odio, ut faucibus orci. Vivamus eget</li>
+                    </ul>
+                </div><!--serviços-->
+            </div><!--w50-->
+        </div><!--center-->
+
+    </section><!--extras-->]
+
+    <footer>
+    
+        <div class="center">
+            <p>Todos os direitos reservados</p>
+        </div><!--center-->
+
+    </footer>
     
 </body>
 </html>
