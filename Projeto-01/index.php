@@ -55,7 +55,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium rutrum ullamcorper. Etiam sem lectus, condimentum eget rhoncus vel, pellentesque nec sapien. Pellentesque placerat eu erat nec consectetur. Pellentesque in sem vel urna tristique lacinia sit amet eget nunc. Integer blandit odio quis ultricies elementum. Suspendisse auctor libero turpis, at placerat est gravida in. Fusce at gravida odio, ut faucibus orci. Vivamus eget erat egestas, lobortis ante et, interdum metus. Nulla eu iaculis nulla, sit amet lacinia diam. Cras porttitor justo sit amet ex ullamcorper, ac consequat risus tempus. Curabitur quis leo lacus. Integer lacinia sem nisi, scelerisque laoreet quam fringilla quis. Phasellus sodales orci eget diam aliquam, vel scelerisque magna aliquet.</p>
         </div><!--w50-->
         <div class="w50 left">
-            <img class="img" src="img/ft.jpg" />
+            <img class="img right" src="img/ft.jpg" />
         </div><!--w50-->
         <div class="clear"></div>
     </div><!--center-->
