@@ -16,7 +16,7 @@
 
     <header>
     <div class="center">
-        <div class="logo left">Logomarca</div><!--logo-->
+        <div class="logo left"><a href="">Logomarca</a></div><!--logo-->
         <nav class="desktop right">
             <ul>
                 <li><a href="">Home</a></li>
@@ -126,8 +126,6 @@
 
     </footer>
     <script src="js/jquery.js"></script>
-    <script>
-        
-    </script>
+    <script src="js/scripts.js"></script>
 </body>
 </html>

@@ -7,6 +7,7 @@ $(function(){
             else
                 listaMenu.fadeOut();
         */
-       
+       //abre e fecha o menu mobile
+       listaMenu.slideToggle();
     })
 })
