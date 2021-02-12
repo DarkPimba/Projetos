@@ -125,5 +125,9 @@
         </div><!--center-->
 
     </footer>
+    <script src="js/jquery.js"></script>
+    <script>
+        
+    </script>
 </body>
 </html>
