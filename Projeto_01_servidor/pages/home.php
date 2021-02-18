@@ -1,7 +1,7 @@
 <section class="banner-container">
-	<div style="background-image: url('<?php echo INCLUDE_PATH; ?>images/bg-form.jpg');" class="banner-single"></div><!--banner-single-->
-	<div style="background-image: url('<?php echo INCLUDE_PATH; ?>images/bg-form2.jpg');" class="banner-single"></div><!--banner-single-->
-	<div style="background-image: url('<?php echo INCLUDE_PATH; ?>images/bg-form3.jpg');" class="banner-single"></div><!--banner-single-->
+	<div style="background-image: url('images/bg-form.jpg');" class="banner-single"></div><!--banner-single-->
+	<div style="background-image: url('images/bg-form2.jpg');" class="banner-single"></div><!--banner-single-->
+	<div style="background-image: url('images/bg-form3.jpg');" class="banner-single"></div><!--banner-single-->
 	<div class="overlay"></div><!--overlay-->
 		<div class="center">
 		<form class="ajax-form" method="post">
@@ -17,7 +17,7 @@
 	<section class="descricao-autor">
 		<div class="center">
 		<div class="w100 left">
-			<h2 class="text-center"><img src="<?php echo INCLUDE_PATH ?>images/foto.jpg" /> <?php echo $infoSite['nome_autor']; ?></h2>
+			<h2 class="text-center"><img src="images/foto.jpg" /> <?php echo $infoSite['nome_autor']; ?></h2>
 			<p><?php echo $infoSite['descricao']; ?></p>
 		</div><!--w50-->
 	

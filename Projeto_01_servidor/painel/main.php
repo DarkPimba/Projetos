@@ -10,7 +10,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
-	<link rel="stylesheet" href="<?php echo INCLUDE_PATH; ?>estilo/font-awesome.min.css">
+	<link rel="stylesheet" href="estilo/font-awesome.min.css">
 	<link href="<?php echo INCLUDE_PATH_PAINEL ?>css/style.css" rel="stylesheet" />
 </head>
 <body>
@@ -79,7 +79,7 @@
 
 </div><!--content-->
 
-<script src="<?php echo INCLUDE_PATH ?>js/jquery.js"></script>
+<script src="js/jquery.js"></script>
 <script src="<?php echo INCLUDE_PATH_PAINEL ?>js/jquery.mask.js"></script>
 <script src="<?php echo INCLUDE_PATH_PAINEL ?>js/main.js"></script>
  <script src="https://cloud.tinymce.com/stable/tinymce.min.js"></script>

@@ -10,18 +10,18 @@
 <html>
 <head>
 	<title><?php echo $infoSite['titulo']; ?></title>
-	<link rel="stylesheet" href="<?php echo INCLUDE_PATH; ?>estilo/font-awesome.min.css">
+	<link rel="stylesheet" href="estilo/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
-	<link href="<?php echo INCLUDE_PATH; ?>estilo/style.css" rel="stylesheet" />
+	<link href="estilo/style.css" rel="stylesheet" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="author" content="Guilherme Grillo" />
 	<meta name="keywords" content="sistemas web,cursos de programação,desenvolvimento web,html5,css3,design responsivo,php,mysql,aprender programação">
 	<meta name="description" content="Este é um site desenvolvido pelos alunos do curso de desenvolvimento web da Danki Code.">
-	<link rel="icon" href="<?php echo INCLUDE_PATH; ?>favicon.ico" type="image/x-icon" />
+	<link rel="icon" href="favicon.ico" type="image/x-icon" />
 	<meta charset="utf-8" />
 </head>
 <body>
-<base base="<?php echo INCLUDE_PATH; ?>" />
+<base base="" />
 	<?php
 		$url = isset($_GET['url']) ? $_GET['url'] : 'home';
 		switch ($url) {
@@ -36,19 +36,19 @@
 	?>
 	<div class="sucesso"><i class="fa fa-check"></i> Formulário enviado com sucesso!</div>
 	<div class="overlay-loading">
-		<img src="<?php echo INCLUDE_PATH ?>images/ajax-loader.gif" />
+		<img src="images/ajax-loader.gif" />
 	</div><!--overlay-loading-->
 
 	<header>
 		<div class="center">
-			<div class="logo left"><a href="<?php echo INCLUDE_PATH; ?>">Logomarca</a></div><!--logo-->
+			<div class="logo left"><a href="">Logomarca</a></div><!--logo-->
 			<nav class="desktop right">
 				<ul>
-					<li><a title="Home" href="<?php echo INCLUDE_PATH; ?>">Home</a></li>
-					<li><a title="Depoimentos" href="<?php echo INCLUDE_PATH; ?>depoimentos">Depoimentos</a></li>
-					<li><a title="Serviços" href="<?php echo INCLUDE_PATH; ?>servicos">Serviços</a></li>
-					<li><a href="<?php echo INCLUDE_PATH; ?>noticias">Notícias</a></li>
-					<li><a realtime="contato" href="<?php echo INCLUDE_PATH; ?>contato">Contato</a></li>
+					<li><a title="Home" href="">Home</a></li>
+					<li><a title="Depoimentos" href="depoimentos">Depoimentos</a></li>
+					<li><a title="Serviços" href="servicos">Serviços</a></li>
+					<li><a href="noticias">Notícias</a></li>
+					<li><a realtime="contato" href="contato">Contato</a></li>
 				</ul>
 			</nav>
 			 <nav class="mobile right">
@@ -56,11 +56,11 @@
 			 		<i class="fa fa-bars" aria-hidden="true"></i>
 			 	</div>
 				<ul>
-					<li><a href="<?php echo INCLUDE_PATH; ?>">Home</a></li>
-					<li><a href="<?php echo INCLUDE_PATH; ?>depoimentos">Depoimentos</a></li>
-					<li><a href="<?php echo INCLUDE_PATH; ?>servicos">Serviços</a></li>
-					<li><a href="<?php echo INCLUDE_PATH; ?>noticias">Notícias</a></li>
-					<li><a realtime="contato" href="<?php echo INCLUDE_PATH; ?>contato">Contato</a></li>
+					<li><a href="">Home</a></li>
+					<li><a href="depoimentos">Depoimentos</a></li>
+					<li><a href="servicos">Serviços</a></li>
+					<li><a href="noticias">Notícias</a></li>
+					<li><a realtime="contato" href="contato">Contato</a></li>
 				</ul>
 			</nav>
 		<div class="clear"></div><!--clear-->
@@ -98,12 +98,12 @@
 		</div><!--center-->
 	</footer>
 
-	<script src="<?php echo INCLUDE_PATH; ?>js/jquery.js"></script>
-	<script src="<?php echo INCLUDE_PATH; ?>js/constants.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/constants.js"></script>
 	<script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDHPNQxozOzQSZ-djvWGOBUsHkBUoT_qH4'></script>
-	<script src="<?php echo INCLUDE_PATH; ?>js/scripts.js"></script>
+	<script src="js/scripts.js"></script>
 
-	<script src="<?php echo INCLUDE_PATH; ?>js/slider.js"></script>
+	<script src="js/slider.js"></script>
 
 	<?php
 
@@ -124,7 +124,7 @@
 		if($url == 'contato'){
 	?>
 	<?php } ?>
-	<!--<script src="<?php echo INCLUDE_PATH; ?>js/exemplo.js"></script>-->
-	<script src="<?php echo INCLUDE_PATH; ?>js/formularios.js"></script>
+	<!--<script src="js/exemplo.js"></script>-->
+	<script src="js/formularios.js"></script>
 </body>
 </html>
